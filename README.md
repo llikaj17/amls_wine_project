@@ -7,7 +7,9 @@ nice approach to getting my hands "dirty" and try out some projects on my own._
 Please note that I used some helpful sources online while working on this exercise which I will list below:
 
 [MarceloMarques Article](https://www.kaggle.com/code/mgmarques/wines-type-and-quality-classification-exercises#notebook-container)
+
 [MayurBadole Article](https://www.analyticsvidhya.com/blog/2021/04/wine-quality-prediction-using-machine-learning/)
+
 [NivyasreeAvula Article](https://medium.com/analytics-vidhya/predicting-red-wine-quality-using-machine-learning-model-34e2b1b8d498)
 
 **Please find below a short description of each task**
