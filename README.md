@@ -1,7 +1,6 @@
 # AMLS Wine Type and Wine Quality Prediction
-_Hello! :) I am Lisbora Likaj (SEM) and this is my project submission for AMLS exercise. This is my second semester at TuGraz. 
-This is my second ML related project and unfortunately I couldn't find a group to divide the workload, so I am aware that
-this solutions needs some improvements:) 
+_Hello! :) I am Lisbora Likaj (SEM) and this is my project submission for AMLS exercise. This is my second ML related 
+project and unfortunately I couldn't find a group to divide the workload, so I am aware that these solutions needs some improvements:) 
 Besides the struggles , I enjoyed working on this project and learnt a lot of new stuff. I think this exercise is a really
 nice approach to getting my hands "dirty" and try out some projects on my own._
 
