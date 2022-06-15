@@ -32,11 +32,13 @@ Please note that I used some helpful sources online while working on this exerci
 * High: >7
 4. There are no null values in this dataset. Then I have performed some summary data descriptive statistics. (You can 
    find further comments in the respective Notebook)
-5. I have split the data for the Wine Type Prediction Model and for Wine Quality prediction model separately into train 
+    
+5. Then I prepared data for splitting by adding a type label for 1 - White; 0 - Red.
+6. I have split the data for the Wine Type Prediction Model and for Wine Quality prediction model separately into train 
    and test, then the train datasets further into train and validation sets.
-6. Then these datasets are exported to csv-s, these csv-s can be found in the 01_DataPrep folder and will be used for
+7. Then these datasets are exported to csv-s, these csv-s can be found in the 01_DataPrep folder and will be used for
    the other subtasks.
-7. Jupyter Notebook is saved as 01_DataPrep.ipynb inside 01_DataPrep folder.
+8. Jupyter Notebook is saved as 01_DataPrep.ipynb inside 01_DataPrep folder.
 
 
 
