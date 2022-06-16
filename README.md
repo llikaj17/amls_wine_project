@@ -81,7 +81,7 @@ and PCA.
 
 
 
-**2) Tuning**
+**3) Tuning**
 
 
 **General description of the approach:** 
@@ -93,7 +93,9 @@ and PCA.
 3. Secondly, I transformed non-normal data distribution into a normal shape using box cox transform
 4. Then I checked for multicollinearity and kept note on two columns that can be removed to see if they improve the results: 
    residual sugar and total sulfur dioxide.
-5. Then I run the models again, this time using the validation set instead of test set, with and without the columns mentioned before. Removing the columns didn't improve the results.
+5. Then I run the models again, this time using the validation set instead of test set, with and without the columns 
+   mentioned before. While removing the columns didn't improve the results for the regression task (so we decide to 
+   keep the two columns), it did improve slightly the wine type classification task (so we decided to remove the columns).
 6. Jupyter Notebook is saved as 03_Tuning.ipynb inside 02_Tuning folder.
 
 
@@ -107,3 +109,26 @@ commands in the notebook.
 All the results, can be found as images inside the 03_Tuning folder. You will see the results (performance metrics, 
 model report and confusion matrix) for the classification and regression tasks, after applying tuning, and after removing
 some columns from the multicollinearity analysis: residual sugar and total sulfur dioxide.
+
+**4) Debug**
+
+
+**General description of the approach:** 
+
+1. I have continued the model debugging task right after the tuning task (it was easier for me)
+2. I have updated the get_results function into get_results_updated so we can get the confusion matrix and the roc curve.
+   Check out the references above for the function.
+ Removing the columns didn't improve the results.
+3. Jupyter Notebook is saved as 04_Debug.ipynb inside 04_Debug folder.
+
+
+
+In order to run the 04_Debug.ipynb file, you need to download the files from 01_DatPrep folder and then follow the 
+commands in the notebook.
+
+
+**Presenting Results:**
+
+All the results, can be found as images inside the 04_Debug folder. You will see the results of the confusion matrix and 
+roc curve for wine type classification task - decision tree (after removing the two columns mentioned above) and for the 
+wine quality regression task - logistic regression.
